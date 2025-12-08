@@ -1,0 +1,15 @@
+def main():
+    print("Hello! This is your Python project running.")
+
+    # Example function call
+    result = add_numbers(5, 10)
+    print("Sum =", result)
+
+
+def add_numbers(a, b):
+    """Returns the sum of two numbers."""
+    return a + b
+
+
+if __name__ == "__main__":
+    main()
